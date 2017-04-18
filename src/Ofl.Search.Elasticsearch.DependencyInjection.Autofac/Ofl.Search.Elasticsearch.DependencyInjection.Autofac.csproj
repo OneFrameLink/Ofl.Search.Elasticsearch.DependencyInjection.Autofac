@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.3</TargetFramework>
+    <Description>Ofl.Search.Abstractions and Ofl.Search.Elasticsearch.Abstractions implementation registrations in Autofac.</Description>
+    <PackageProjectUrl>https://github.com/OneFrameLink/Ofl.Search.Elasticsearch.DependencyInjection.Autofac</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/OneFrameLink/Ofl.Search.Elasticsearch.DependencyInjection.Autofac.git</RepositoryUrl>
+    <PackageTags>search elasticsearch di dependencyinjection autofac</PackageTags>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.0.0" />
+    <PackageReference Include="Ofl.Search.Elasticsearch" Version="1.0.8" />
+    <PackageReference Include="Ofl.Search.Elasticsearch.Abstractions" Version="1.0.3" />
+  </ItemGroup>
+
+</Project>
