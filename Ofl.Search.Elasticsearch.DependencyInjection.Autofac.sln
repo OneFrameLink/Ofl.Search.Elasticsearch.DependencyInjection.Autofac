@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{008DA6B6-DB08-444D-8D22-F6A2991F77BB}"
 EndProject
@@ -10,6 +10,16 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofl.Search.Elasticsearch.DependencyInjection.Autofac", "src\Ofl.Search.Elasticsearch.DependencyInjection.Autofac\Ofl.Search.Elasticsearch.DependencyInjection.Autofac.csproj", "{6A1DC6FA-68B3-4296-8968-38488AC2844A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofl.Search.Elasticsearch.DependencyInjection.Autofac.Tests", "test\Ofl.Search.Elasticsearch.DependencyInjection.Autofac.Tests\Ofl.Search.Elasticsearch.DependencyInjection.Autofac.Tests.csproj", "{D83326A7-0D4B-45C2-8821-A61DDB448E4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-level items", "solution-level items", "{BC58E0C3-B5D2-4D02-9BB0-9CE1A49B20CE}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.gitmodules = .gitmodules
+		appveyor.yml = appveyor.yml
+		directory.build.props = directory.build.props
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -52,5 +62,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6A1DC6FA-68B3-4296-8968-38488AC2844A} = {008DA6B6-DB08-444D-8D22-F6A2991F77BB}
 		{D83326A7-0D4B-45C2-8821-A61DDB448E4A} = {37BD2940-3014-4418-9D73-05E9A1DF8B49}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {682DD877-6B81-49D4-8688-56AAE11FC22F}
 	EndGlobalSection
 EndGlobal

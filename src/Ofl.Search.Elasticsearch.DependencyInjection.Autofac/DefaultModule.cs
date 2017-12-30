@@ -3,6 +3,7 @@ using System;
 
 namespace Ofl.Search.Elasticsearch.DependencyInjection.Autofac
 {
+    [Obsolete]
     public class DefaultModule : Module
     {
         #region Overrides of Module
